@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+}
+
+body {
+    background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+}
+
+nav a {
+    margin: 18px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    margin-right: 50px;
+}
+nav a:hover {
+    color: red;
+    font-size: 35px;
+    text-decoration: underline;
+  }
+nav {
+
+    display: flex;
+    justify-content: end;
+
+}
+
+/* navbar background */
+.nav-background {
+    background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    padding: 10px;
+    top: 0px;
+}
+
+/* home full page  */
+.home-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+#home {
+    position: absolute;
+    top: 25px;
+}
+
+@media screen and (max-width:500px) {
+    .home-page {
+        flex-direction: column;
+    }
+    body{
+        background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+    }
+    .hello{
+        font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+
+    }
+}
+
+.home-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.hello {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 60px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.im {
+    margin-left: 170px;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(193, 31, 31);
+}
+
+.name {
+    margin-left: 220px;
+    font-size: 110px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.web {
+    margin-left: 380px;
+    margin-bottom: 150px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+
+.image {
+    width: 550px;
+    height: 550px;
+    margin-right: 40px;
+
+
+}
+
+.hire-me {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    background-color: rgb(255, 44, 44);
+    width: 160px;
+    height: 60px;
+    position: relative;
+    bottom: 60px;
+    left: 380px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+/* About full page */
+#about{
+    position: absolute;
+    top: 930px;
+}
+
+.about-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+    width: 880px;
+    height: 170px;
+    margin-top: 300px;
+    margin-left: 280px;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.education-heading {
+    margin-top: 60px;
+    margin-left: 160px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 45px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.education {
+
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+    width: 700px;
+    height: 200px;
+    margin-left: 370px;
+    margin-top: 50px;
+    border-radius: 30px;
+
+}
+
+.Schooling {
+    margin-right: 380px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.web-development {
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.standard {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    top: 1500px;
+    left: 640px;
+}
+
+.year {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-right: 300px;
+    position: absolute;
+    top: 1517px;
+    left: 715px;
+
+}
+
+.School-name {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    position: absolute;
+    top: 1540px;
+    left: 637px;
+    color: #045c77;
+    text-shadow: 0px 1px palevioletred;
+}
+
+.fssa {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    position: absolute;
+    top: 1600px;
+    left: 638px;
+}
+
+.location {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #045c77;
+    text-shadow: 0px 1px palevioletred;
+    position: absolute;
+    top: 1639px;
+    left: 640px;
+}
+
+/* Skills ful page*/
+.python-html-progress {
+    display: flex;
+
+}
+
+.python-pro-bg {
+    background-color: black;
+    height: 17px;
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 300px;
+    border-radius: 20px;
+}
+
+.python-pro {
+    background-color: rgb(0, 208, 255);
+    height: 17px;
+    width: 60px;
+    border-radius: 20px;
+    position: relative;
+    left: 199px;
+    bottom: 17px;
+}
+
+.html-pro-bg {
+    background-color: black;
+    height: 17px;
+    width: 450px;
+    margin-left: 280px;
+    margin-top: 300px;
+    border-radius: 20px;
+}
+
+.html-pro {
+    background-color: rgb(0, 208, 255);
+    height: 17px;
+    width: 350px;
+    border-radius: 20px;
+    position: relative;
+    left: 929px;
+    bottom: 34px;
+}
+
+.css-c-pluse-pluse-progress {
+    display: flex;
+}
+
+.css-pro-bg {
+    background-color: black;
+    height: 17px;
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 180px;
+    border-radius: 20px;
+}
+
+.css-pro {
+    background-color: rgb(0, 208, 255);
+    height: 17px;
+    width: 350px;
+    border-radius: 20px;
+    position: relative;
+    left: 199px;
+    bottom: 17px;
+}
+
+.c-pluse-pluse-pro-bg {
+    background-color: black;
+    height: 17px;
+    width: 450px;
+    margin-left: 280px;
+    margin-top: 180px;
+    border-radius: 20px;
+}
+
+.c-pluse-pluse-pro {
+    background-color: rgb(0, 208, 255);
+    height: 17px;
+    width: 0px;
+    border-radius: 20px;
+    position: relative;
+    left: 929px;
+    bottom: 34px;
+}
+
+.js-ps-progress {
+    display: flex;
+}
+
+.js-pro-bg {
+    background-color: black;
+    height: 17px;
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 180px;
+    border-radius: 20px;
+}
+
+.js-pro {
+    background-color: rgb(0, 208, 255);
+    height: 17px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    left: 199px;
+    bottom: 17px;
+}
+
+.ps-pro-bg {
+    background-color: black;
+    height: 17px;
+    width: 450px;
+    margin-left: 280px;
+    margin-top: 180px;
+    border-radius: 20px;
+}
+
+.ps-pro {
+    background-color: rgb(0, 208, 255);
+    height: 17px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    left: 929px;
+    bottom: 34px;
+}
+
+.languvages {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.python {
+    position: absolute;
+    top: 1880px;
+    left: 170px;
+}
+
+.html {
+    position: absolute;
+    top: 1880px;
+    left: 900px;
+}
+
+.css {
+    position: absolute;
+    top: 2100px;
+    left: 170px;
+}
+
+.c-pluse {
+    position: absolute;
+    top: 2100px;
+    left: 900px;
+}
+
+.js {
+    position: absolute;
+    top: 2350px;
+    left: 170px;
+}
+
+.problem-solving {
+    position: absolute;
+    top: 2350px;
+    left: 900px;
+}
+
+.python-logo {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 1980px;
+    left: 150px;
+}
+
+.html-logo {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 1975px;
+    left: 880px;
+}
+
+.css-logo {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 2210px;
+    left: 150px;
+}
+
+.c-pluse-pluse-logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 2205px;
+    left: 875px;
+}
+
+.js-logo {
+    width: 80px;
+    height: 45px;
+    position: absolute;
+    top: 2430px;
+    left: 135px;
+}
+
+.ps-logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 2430px;
+    left: 875px;
+}
+
+#contact {
+    margin-top: 300px;
+    margin-left: 350px;
+    background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+    width: 750px;
+    height: 250px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+}
+.mail{
+    margin-top: 60px;
+    margin-left: 130px;
+    color: black;
+    text-decoration: none;
+}
+.linedin{
+    margin-top: 70px;
+    margin-left: 130px;
+    color: black;
+    text-decoration: none;
+}
+.email-logo{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 230px;
+    position: relative;
+    bottom: 200px;
+    left: 390px;
+}
+.linkedin-logo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 330px;
+    left: 340px;
+}
