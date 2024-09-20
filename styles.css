@@ -54,23 +54,6 @@ nav {
     position: absolute;
     top: 25px;
 }
-
-@media screen and (max-width:500px) {
-    .home-page {
-        flex-direction: column;
-    }
-    body{
-        background-image: linear-gradient(to right, #a6a6a6, #ffffff);
-    }
-    .hello{
-        font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
-
-    }
-}
-
 .home-detail{
     display: flex;
     flex-direction: column;
@@ -251,7 +234,7 @@ nav {
     font-style: normal;
     font-size: 23px;
     position: absolute;
-    top: 1600px;
+    top: 1585px;
     left: 638px;
 }
 
@@ -263,7 +246,7 @@ nav {
     color: #045c77;
     text-shadow: 0px 1px palevioletred;
     position: absolute;
-    top: 1639px;
+    top: 1623px;
     left: 640px;
 }
 
