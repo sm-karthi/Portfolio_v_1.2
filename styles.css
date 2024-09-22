@@ -21,6 +21,7 @@ nav a {
     color: black;
     margin-right: 50px;
 }
+
 nav a:hover {
     color: red;
     font-size: 35px;
@@ -98,9 +99,9 @@ nav {
 
 
 .image {
-    width: 550px;
-    height: 550px;
-    margin-right: 40px;
+    width: 600px;
+    height: 600px;
+    margin-right: 10px;
 
 
 }
@@ -122,6 +123,7 @@ nav {
     text-decoration: none;
     color: black;
 }
+
 
 /* About full page */
 #about{
@@ -468,8 +470,16 @@ nav {
     top: 2430px;
     left: 875px;
 }
-
-#contact {
+#contact{
+    position: absolute;
+    top: 2500px;
+}
+.arrow{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 100px;
+}
+.Contact {
     margin-top: 300px;
     margin-left: 350px;
     background-image: linear-gradient(to right, #a6a6a6, #ffffff);
@@ -510,3 +520,224 @@ nav {
     bottom: 330px;
     left: 340px;
 }
+
+/* Get in tech ful page */
+#get-in-tech{
+    background-color: black;
+    color: white;
+    width: 160px;
+    padding: 8px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  .forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 200px;
+    margin-bottom: 430px;
+    
+ }
+ 
+ .container{
+    position: absolute;
+    top: 3500px;
+    right: 630px;
+ }
+ .container input{
+    width: 360px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid black;
+    background:transparent;
+    color: black;
+    outline: none;
+    z-index: 1111;  
+ }
+ 
+ 
+ .container label{
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 19px;
+    pointer-events:all;
+    transition: .3s;
+    
+ }
+ input:focus{
+    border: 2px solid rgb(37, 186, 37);
+ }
+ 
+ input:focus ~ label {
+    top: 0;
+    left: 20px;
+    font-size: 19px;
+    padding: 0 2px;
+    color: rgb(37, 186, 37);
+    background-image: linear-gradient(to right, rgb(198, 198, 198),rgb(204, 204, 204));
+ }
+ /* enter your email */
+ .con-2{
+    position: absolute;
+    top: 3610px;
+    right: 630px;
+ }
+ .con-2 input{
+    width: 360px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    outline: none;
+ }
+ .con-2 label{
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 19px;
+    pointer-events: none;
+    transition: .3s;
+ }
+ input:focus{
+    border: 2px solid rgb(37, 186, 37);
+ }
+ input:focus ~ label {
+    top: 0;
+    left: 20px;
+    font-size: 19px;
+    padding: 0 2px;
+    background-image: linear-gradient(to right, rgb(198, 198, 198),rgb(204, 204, 204));
+    color: rgb(37, 186, 37);
+ }
+ /* massage */
+ .con-3{
+    position: absolute;
+    top: 3720px;
+    right: 630px;
+    
+ }
+ .con-3 textarea{
+    width: 360px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 20px;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    outline: none;
+ }
+ .con-3 label{
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 19px;
+    pointer-events: none;
+    transition: .3s;
+ }
+ textarea:focus{
+    border: 2px solid rgb(37, 186, 37);
+ }
+ textarea:focus ~ label {
+    top: 0;
+    left: 20px;
+    font-size: 19px;
+    padding: 0 2px;
+    background-image: linear-gradient(to right,rgb(198, 198, 198),rgb(201, 201, 201));
+    color: rgb(37, 186, 37);
+ }
+
+ button{
+    position: relative;
+    top: 300px;
+    right: 250px;
+    padding: 8px;
+    background: transparent;
+    border-radius: 10px;
+ }
+ button:focus{
+    background-color: red;
+ }
+ 
+ /*
+ .enteraea{
+    position: relative;
+    height: 80px;
+    line-height: 80px;
+ }
+ input{
+    position: absolute;
+    width: 100%;
+    outline: none;
+    font-size: 2.2em;
+    padding: 0 30px;
+    line-height: 80px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: transparent;
+    transition: 0.2s ease;
+    z-index: 1;
+ }
+ .enter_name{
+    position: absolute;
+    font-size: 1.6em;
+    color: white;
+    padding: 0 25px;
+    margin: 0 25px;
+    transition: 0.3s ease;
+ }
+ input:focus,
+ input:valid{
+    color: rgb(12, 219, 12);
+    border: 2px solid rgb(12, 219, 12);
+ }
+ input:focus + .enter_name,
+ input:valid + .enter_name{
+    color: rgb(12, 219, 12);
+    height: 30px;
+    line-height: 0px;
+    padding: 0 12px;
+    /* transform: translate(-15px,-16px) (scale(0.100)); 
+    z-index: 1; 
+ 
+/* .enter_name{
+    position: relative;
+    height: 80px;
+    line-height: 80px;
+}
+input{
+    width: 500px;
+    position: relative;
+    top: 100px;
+    outline: none;
+    font-size: 2.2em;
+    padding: 0 30px;
+    line-height: 80px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+textarea{
+    width: 500px;
+    height: 60px;
+} */

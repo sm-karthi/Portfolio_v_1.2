@@ -32,8 +32,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Anton+SC&family=Dangrek&family=Foldit:wght@100..900&family=Kalnia+Glaze:wght@100..700&family=Kaushan+Script&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shrikhand&family=Signika+Negative:wght@300..700&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Anton+SC&family=Dangrek&family=Foldit:wght@100..900&family=Kalnia+Glaze:wght@100..700&family=Kaushan+Script&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shrikhand&family=Signika+Negative:wght@300..700&family=Yeseva+One&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -45,12 +47,13 @@
             <a href="#about">About Me</a>
             <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
+            <div class="animation strat-home"></div>
         </nav>
     </header>
-    
+
     <!--home page section-->
     <div id="home"></div>
-    <section class="home-page" >
+    <section class="home-page">
         <div class="home-detail">
             <h2 class="hello">Hello!</h2>
             <h2 class="im">I'm</h2>
@@ -62,7 +65,7 @@
     </section>
     <!--About page section-->
     <div id="about"></div>
-    <section class="about-ful-page" >
+    <section class="about-ful-page">
         <div class="about-page">I am passionate about computer science and emerging technologies. As a <br>
             highly motivated and creative fresher web designer, I am dedicated to creating <br>
             user-friendly website.</div>
@@ -85,7 +88,7 @@
 
     </section>
     <!--Skills page section-->
-    <section class="skills-page" >
+    <section class="skills-page">
         <div id="skills">
             <div class="python-html-progress">
 
@@ -131,14 +134,43 @@
     </section>
 
     <!--Contact ful page-->
+    <div id="contact"></div>
     <section class="contact-page">
-        <div id="contact">
-            <a href="mailto:karthikeyan.madasamy@fssa.freshworks.com" class="mail">karthikeyan.madasamy@fssa.freshworks.com</a>
-            <a href="https://www.linkedin.com/in/karthikeyan-madasamy-857122327" class="linedin">karthikeyan-madasamy-857122327</a>
+        <div class="Contact">
+
+            <a href="mailto:karthikeyan.madasamy@fssa.freshworks.com"
+                class="mail">karthikeyan.madasamy@fssa.freshworks.com</a> 
+               <a href="https://www.linkedin.com/in/karthikeyan-madasamy-857122327"
+                class="linedin">karthikeyan-madasamy-857122327</a>
         </div>
         <img src="./assets/image/icon-email.png" alt="email icon" class="email-logo">
         <img src="./assets/image/icon-linkedin.png" alt="linedin icon" class="linkedin-logo">
+        <a href="#get-in-tech"><img src="./assets/image/icon-arrow-simple.png" alt="Arrow icon" class="arrow"></a>
     </section>
+    <!--Get in tech ful page-->
+    <section>
+        <h2 id="get-in-tech">Get in tech</h2>
+    <form action="https://api.web3forms.com/submit" method="POST" class="forms">
+
+        <input type="hidden" name="access_key" value="7067b410-7bb1-4371-9d24-da5ef6054903">
+    
+        <div class="container">
+            
+                <input type="text" id="name" name="name" required>
+                <label for="name">Enter your name<label>
+        </div>    
+        <div class="con-2"> 
+                <input type="email" id="email" name="email" required>
+                <label for="email">Enter your email</label>
+        </div>
+        <div class="con-3">
+            <textarea name="message" id="message" name="message"></textarea>
+            <label for="message">Message</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
 </body>
 
 </html>
