@@ -257,7 +257,7 @@ nav {
 .python-pro {
     background-color: rgb(0, 208, 255);
     height: 17px;
-    width: 280px;
+    width: 350px;
     border-radius: 20px;
     position: relative;
     left: 199px;
@@ -276,7 +276,7 @@ nav {
 .html-pro {
     background-color: rgb(0, 208, 255);
     height: 17px;
-    width: 350px;
+    width: 280px;
     border-radius: 20px;
     position: relative;
     left: 929px;
@@ -360,7 +360,7 @@ nav {
 .ps-pro {
     background-color: rgb(0, 208, 255);
     height: 17px;
-    width: 380px;
+    width: 430px;
     border-radius: 20px;
     position: relative;
     left: 929px;
@@ -377,13 +377,13 @@ nav {
 .python {
     position: absolute;
     top: 1880px;
-    left: 170px;
+    left: 900px;
 }
 
 .html {
     position: absolute;
     top: 1880px;
-    left: 900px;
+    left: 170px;
 }
 
 .css {
@@ -415,7 +415,7 @@ nav {
     height: 40px;
     position: absolute;
     top: 1980px;
-    left: 150px;
+    left: 880px;
 }
 
 .html-logo {
@@ -423,7 +423,7 @@ nav {
     height: 45px;
     position: absolute;
     top: 1975px;
-    left: 880px;
+    left: 150px;
 }
 
 .css-logo {
