@@ -46,6 +46,26 @@ nav {
     top: 0px;
 } 
 
+.project{
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    background-color: red;
+    width: fit-content;
+    height: fit-content;
+    padding: 7px 13px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    border-radius: 8px;
+    
+}
+
+.project:hover{
+    background-color: rgb(193, 31, 31);
+}
+
 /* home full page  */
 .home-page {
     display: flex;
@@ -237,7 +257,7 @@ nav {
 .python-pro {
     background-color: rgb(0, 208, 255);
     height: 17px;
-    width: 60px;
+    width: 280px;
     border-radius: 20px;
     position: relative;
     left: 199px;
@@ -286,7 +306,7 @@ nav {
     bottom: 17px;
 }
 
-.c-pluse-pluse-pro-bg {
+.mySql_pro-bg {
     background-color: black;
     height: 17px;
     width: 450px;
@@ -295,10 +315,10 @@ nav {
     border-radius: 20px;
 }
 
-.c-pluse-pluse-pro {
+.mySql_pro {
     background-color: rgb(0, 208, 255);
     height: 17px;
-    width: 0px;
+    width: 280px;
     border-radius: 20px;
     position: relative;
     left: 929px;
@@ -321,7 +341,7 @@ nav {
 .js-pro {
     background-color: rgb(0, 208, 255);
     height: 17px;
-    width: 300px;
+    width: 280px;
     border-radius: 20px;
     position: relative;
     left: 199px;
@@ -340,7 +360,7 @@ nav {
 .ps-pro {
     background-color: rgb(0, 208, 255);
     height: 17px;
-    width: 300px;
+    width: 380px;
     border-radius: 20px;
     position: relative;
     left: 929px;
@@ -372,7 +392,7 @@ nav {
     left: 170px;
 }
 
-.c-pluse {
+.mySql {
     position: absolute;
     top: 2100px;
     left: 900px;
@@ -414,11 +434,11 @@ nav {
     left: 150px;
 }
 
-.c-pluse-pluse-logo {
+.MySQL-logo {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 2205px;
+    top: 2195px;
     left: 875px;
 }
 
@@ -438,9 +458,36 @@ nav {
     left: 875px;
 }
 
+.java-logo{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 60px;
+    bottom: 47px;
+}
+
+.java{
+    margin-left: 500px;
+    margin-top: 70px;
+}
+.java_progress{
+    background-color: black;
+    height: 17px;
+    width: 480px;
+    border-radius: 20px;
+    margin-left: 530px;
+    margin-top: 40px;
+}
+.java-pro{
+    background-color: rgb(0, 208, 255);
+    height: 17px;
+    width: 300px;
+    border-radius: 20px;
+}
+
 #contact {
     position: absolute;
-    top: 2500px;
+    top: 3250px;
 }
 
 .arrow {
@@ -495,6 +542,57 @@ nav {
     left: 340px;
 }
 
+#englishSkills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "poppins", sans-serif;
+    margin-top: 180px;
+}
+
+.english-skills-title{
+    font-size: 35px;
+}
+
+.english-skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    font-size: 23px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.life-skills-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "poppins", sans-serif;
+    margin-top: 80px;
+}
+
+#lifeSkills{
+    font-size: 35px;
+}
+
+.life-skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    font-size: 23px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.stars{
+    color: rgb(255, 42, 0);
+    font-size: 30px;
+}
+
 /* Get in tech ful page */
 #get-in-tech {
     background-color: black;
@@ -523,7 +621,7 @@ nav {
 /* Enter your name */
 .container {
     position: absolute;
-    top: 3500px;
+    top: 4300px;
     right: 630px;
 }
 
@@ -553,6 +651,8 @@ nav {
 
 }
 
+
+
 input:focus {
     border: 2px solid rgb(37, 186, 37);
 }
@@ -569,7 +669,7 @@ input:focus~label {
 /* enter your email */
 .con-2 {
     position: absolute;
-    top: 3610px;
+    top: 4400px;
     right: 630px;
 }
 
@@ -612,7 +712,7 @@ input:focus~label {
 /* massage */
 .con-3 {
     position: absolute;
-    top: 3720px;
+    top: 4500px;
     right: 630px;
 
 }
